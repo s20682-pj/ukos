@@ -1,0 +1,43 @@
+s20682@szuflandia:~/projekty/ukos/zadaniedom$ wget https://ztm.gda.pl/rozklady/pobierz_SIP.php?n[0]=1332&t=&l=210 && cat | grep -a "210"
+[1] 2216
+[2] 2217
+--2019-11-15 13:47:55--  https://ztm.gda.pl/rozklady/pobierz_SIP.php?n[0]=1332
+Resolving ztm.gda.pl (ztm.gda.pl)... 195.85.230.26
+Connecting to ztm.gda.pl (ztm.gda.pl)|195.85.230.26|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 995 [text/html]
+Saving to: ‘pobierz_SIP.php?n[0]=1332’
+
+pobierz_SIP.php?n[0]=1 100%[============================>]     995  --.-KB/s    in 0s
+
+2019-11-15 13:47:56 (18.7 MB/s) - ‘pobierz_SIP.php?n[0]=1332’ saved [995/995]
+
+
+
+
+cat ztm.txt | grep -a "132"
+
+^X^C[1]-  Done                    wget https://ztm.gda.pl/rozklady/pobierz_SIP.php?n[0]=1332
+[2]+  Done                    t=
+
+s20682@szuflandia:~/projekty/ukos/zadaniedom$ wget -O ztm.txt https://ztm.gda.pl/rozklady/pobierz_SIP.php?n[0]=1332&t=&l=210 && cat ztm.txt | grep -a "210"
+[1] 2226
+[2] 2227
+<tr><td>210</td><td>Orunia Go▒cinna</td><td>za 23 min</td></tr>
+[2]+  Done                    t=
+s20682@szuflandia:~/projekty/ukos/zadaniedom$ --2019-11-15 13:48:33--  https://ztm.gda.pl/rozklady/pobierz_SIP.php?n[0]=1332
+Resolving ztm.gda.pl (ztm.gda.pl)... 195.85.230.26
+Connecting to ztm.gda.pl (ztm.gda.pl)|195.85.230.26|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 994 [text/html]
+Saving to: ‘ztm.txt’
+
+ztm.txt                100%[============================>]     994  --.-KB/s    in 0s
+
+2019-11-15 13:48:33 (24.9 MB/s) - ‘ztm.txt’ saved [994/994]
+
+
+[1]+  Done                    wget -O ztm.txt https://ztm.gda.pl/rozklady/pobierz_SIP.php?n[0]=1332
+s20682@szuflandia:~/projekty/ukos/zadaniedom$ cat ztm.txt | grep -a "210"
+<tr><td>210</td><td>Orunia Go▒cinna</td><td>za 21 min</td></tr>
+
