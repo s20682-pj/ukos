@@ -14,3 +14,21 @@ ztm.txt                100%[============================>]     993  --.-KB/s    
 s20682@szuflandia:~/projekty/ukos/zadaniedom$ cat ztm.txt | grep -a "210"
 <tr><td>210</td><td>Orunia Go▒cinna</td><td>za 18 min</td></tr>
 
+
+
+
+podgląd pliku ztm.txt:
+s20682@szuflandia:~/projekty/ukos/zadaniedom$ cat ztm.txt
+<!-- p --><div style="background: #fff; margin-top: 1em; margin-bottom: 1em;"><table class="sip">
+<tr><th class="naglowek">Linia</th><th class="naglowek" style="min-width:200px;">Kierunek</th><th class="naglowek">Odjazd</th></tr>
+<tr><td><span class="juz">131</span></td><td><span class="juz">Olszynka Szko▒a</span></td><td>&nbsp;</td></tr>
+<tr><td>184</td><td>Wa▒y Piastowskie</td><td>za 4 min</td></tr>
+<tr><td>199</td><td>Wa▒y Piastowskie</td><td>za 4 min</td></tr>
+<tr><td>130</td><td>Muzeum II Wojny ▒wiatowej</td><td>za 9 min</td></tr>
+<tr><td>115</td><td>Wrzeszcz PKP</td><td>za 14 min</td></tr>
+<tr><td>210</td><td>Orunia Go▒cinna</td><td>za 14 min</td></tr>
+<tr><td>184</td><td>Wa▒y Piastowskie</td><td>za 20 min</td></tr>
+<tr><td>199</td><td>Wa▒y Piastowskie</td><td>za 20 min</td></tr>
+<tr><td>131</td><td>Olszynka Szko▒a</td><td>za 24 min</td></tr>
+</table><p style="font-size: 8pt; font-style:italic;margin-top: 0;text-align:center;">▒r▒d▒o danych: narz▒dzie oprogramowania SIP opracowane przez <a href="http://www.gmv.com">GMV</a></p>s20682@szuflandia:~/projekty/ukos/zadaniedom$
+
